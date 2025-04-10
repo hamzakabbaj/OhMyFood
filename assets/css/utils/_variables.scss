@@ -1,0 +1,21 @@
+// Base colors
+$color-purple: #9356dc;
+$color-blue-dark: #003a68;
+$color-blue-light: #89c8fa;
+$color-green: #008766;
+$color-mint: #99e2d0;
+$color-gray-light: #f3f3f3;
+
+// Theme colors
+$theme-primary: $color-purple;
+$theme-secondary: $color-blue-dark;
+$theme-accent: $color-green;
+$theme-background: $color-gray-light;
+$theme-text: $color-blue-dark;
+$theme-highlight: $color-mint;
+
+// Typography
+$font-family-base: "Roboto", sans-serif;
+$font-size-small: 12px;
+$font-size-medium: 16px;
+$font-size-large: 24px;
