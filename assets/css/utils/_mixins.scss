@@ -66,6 +66,8 @@
     @include pseudo-element;
     background-color: #ffffff;
     opacity: 0;
+    border-radius: 25px;
+    box-shadow: 0px 4px 15px 0px #00000059;
     transition: opacity 0.3s ease;
   }
 }

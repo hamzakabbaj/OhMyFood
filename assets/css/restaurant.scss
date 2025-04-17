@@ -1,6 +1,13 @@
 @import "utils/variables";
 @import "utils/mixins";
 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
 .header {
   &__back {
     position: absolute;
@@ -39,8 +46,7 @@
 
   &__content {
     background-color: $theme-background;
-    position: relative;
-    top: -50px;
+    margin-top: -50px;
     border-radius: 40px 40px 0px 0px;
     padding: 30px 0px 40px 0px;
     width: 100%;
@@ -122,6 +128,28 @@
             box-shadow: 0px 4px 15px 0px #0000001a;
             border-radius: 15px;
             padding: 15px;
+            opacity: 0;
+            animation: fadeIn 0.8s ease forwards;
+
+            &:nth-child(1) {
+              animation-delay: 0.1s;
+            }
+
+            &:nth-child(2) {
+              animation-delay: 0.3s;
+            }
+
+            &:nth-child(3) {
+              animation-delay: 0.5s;
+            }
+
+            &:nth-child(4) {
+              animation-delay: 0.7s;
+            }
+
+            &:nth-child(5) {
+              animation-delay: 0.9s;
+            }
 
             @media (min-width: 768px) {
               margin: 0px 10%;
