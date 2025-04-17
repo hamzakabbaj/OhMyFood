@@ -34,7 +34,7 @@ body {
           align-items: center;
 }
 
-.header__logo h2 {
+.header__logo h1 {
   font-family: Shrikhand;
   font-weight: 400;
   font-style: italic;
@@ -63,7 +63,7 @@ body {
           box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-.header__location h1 {
+.header__location h2 {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;

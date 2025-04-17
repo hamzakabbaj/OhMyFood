@@ -23,7 +23,7 @@ body {
     align-items: center;
   }
 
-  &__logo h2 {
+  &__logo h1 {
     @include logo-text;
     margin: 0px;
   }
@@ -39,7 +39,7 @@ body {
     box-shadow: 0px 4px 4px 0px #00000040;
   }
 
-  &__location h1 {
+  &__location h2 {
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
