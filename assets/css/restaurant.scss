@@ -179,6 +179,9 @@
                   font-family: Roboto;
                   font-size: 15px;
                   font-weight: 300;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
                 }
 
                 & h3 {
@@ -186,6 +189,7 @@
                   font-family: Roboto;
                   font-size: 15px;
                   font-weight: 700;
+                  padding-left: 20px;
                 }
               }
             }
@@ -198,7 +202,7 @@
               background-color: $color-mint;
               border-radius: 0px 15px 15px 0px;
               color: white;
-              transition: width 0.3s ease;
+              transition: width 250ms ease-out;
               & i {
                 font-size: 20px;
                 display: none;
