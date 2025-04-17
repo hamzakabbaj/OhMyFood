@@ -15,17 +15,14 @@
   font-style: italic;
   font-size: 30px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
 }
 
 @mixin section-title {
   font-family: Roboto;
   font-weight: 700;
-  font-optical-sizing: auto;
   font-size: 24px;
   line-height: 100%;
-  letter-spacing: 0%;
   font-variation-settings: "wdth" 100;
 }
 
@@ -34,7 +31,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
@@ -45,7 +41,6 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 
 @mixin button {
