@@ -4,6 +4,10 @@ body {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,7 +90,7 @@ body {
   background-color: #f3f3f3;
 }
 
-.main__banner h1 {
+.main__banner h2 {
   font-family: Roboto;
   font-weight: 700;
   font-size: 24px;
@@ -104,7 +108,7 @@ body {
   margin: 0px;
 }
 
-.main__banner button {
+.main__banner__button {
   background-color: #9356dc;
   color: white;
   height: 50px;
@@ -116,6 +120,15 @@ body {
           box-shadow: 0px 4px 10px 0px #00000040;
   padding: 0px 20px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -123,14 +136,15 @@ body {
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
+  text-decoration: none;
   margin-bottom: 20px;
 }
 
-.main__banner button:hover::after {
+.main__banner__button:hover::after {
   opacity: 0.15;
 }
 
-.main__banner button::after {
+.main__banner__button::after {
   content: "";
   position: absolute;
   top: 0;
