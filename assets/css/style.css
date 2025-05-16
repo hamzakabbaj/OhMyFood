@@ -124,7 +124,7 @@ div#loader i:nth-child(3) {
 }
 
 .header__logo h1 {
-  font-family: Shrikhand;
+  font-family: "Shrikhand", cursive;
   font-weight: 400;
   font-style: italic;
   font-size: 30px;
@@ -152,7 +152,7 @@ div#loader i:nth-child(3) {
 }
 
 .header__location h2 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -175,7 +175,7 @@ div#loader i:nth-child(3) {
 }
 
 .main__banner h2 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 100%;
@@ -184,7 +184,7 @@ div#loader i:nth-child(3) {
 }
 
 .main__banner p {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 100%;
@@ -213,7 +213,7 @@ div#loader i:nth-child(3) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -255,7 +255,7 @@ div#loader i:nth-child(3) {
 }
 
 .main__how_it_works__title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 100%;
@@ -316,7 +316,7 @@ div#loader i:nth-child(3) {
 }
 
 .main__how_it_works__steps__step h3 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -340,7 +340,7 @@ div#loader i:nth-child(3) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   position: relative;
@@ -362,7 +362,7 @@ div#loader i:nth-child(3) {
 }
 
 .restaurants h2 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 100%;
@@ -440,7 +440,7 @@ div#loader i:nth-child(3) {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
@@ -505,7 +505,7 @@ div#loader i:nth-child(3) {
 
 .restaurants__list__card__content__text__name {
   margin: 0px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -513,7 +513,7 @@ div#loader i:nth-child(3) {
 
 .restaurants__list__card__content__text__location {
   margin: 0px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 100%;
@@ -553,7 +553,7 @@ div#loader i:nth-child(3) {
 }
 
 .footer__title {
-  font-family: Shrikhand;
+  font-family: "Shrikhand", cursive;
   font-weight: 400;
   font-style: italic;
   font-size: 30px;
@@ -592,7 +592,7 @@ div#loader i:nth-child(3) {
 .footer__links a {
   text-decoration: none;
   color: white;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   display: -webkit-box;
