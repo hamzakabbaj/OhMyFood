@@ -209,18 +209,22 @@
               background-color: $color-mint;
               border-radius: 0px 15px 15px 0px;
               color: white;
-              transition: width 250ms ease-in-out, min-width 250ms ease-in-out;
+              opacity: 0;
+              transition: width 250ms ease-in-out, min-width 250ms ease-in-out,
+                opacity 250ms ease-in-out;
               & i {
                 font-size: 20px;
-                display: none;
-                transition: display 250ms 250ms ease-out;
+                opacity: 0;
+                color: white;
+                transition: opacity 100ms ease-in-out;
               }
             }
             &:hover &__add {
               width: 15%;
               min-width: 70px;
+              opacity: 1;
               & i {
-                display: block;
+                opacity: 1;
               }
             }
 
